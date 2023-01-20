@@ -1,0 +1,56 @@
+.vagas__banner{
+    text-align: center;
+    padding: 5em;
+}
+.vagas__banner--label{
+    font-size: 14px;
+    background:rgba(142, 36, 36, 0.15);
+    font-weight: 500;
+    display: inline;
+    padding: 0.2em 0.5em;
+    color: var(--vinho);
+    border-radius: 10px;
+}
+.vagas__banner--titulo{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1em;
+}
+.vagas__banner--texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-bottom: 3em;
+}
+.vagas__banner--foto{
+    width: 80vw;
+}
+.vagas__info{
+    margin-bottom: 5em;
+    padding-top: 0.5em;
+}
+.vagas__info--template{
+    margin: 0 25vw;
+}
+.vagas__info--titulo{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+.vagas__info--card{
+    border: 1px solid #d7d9df;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.vagas__info--card--titulo{
+    font-size: 18px;
+    font-weight: 500;
+}
+.vagas__info--card--dados{
+    display: flex;
+}
+.vagas__info--card--texto{
+    color: var(--cinza);
+    padding: 1em 1em 0 0;
+}

@@ -1,0 +1,51 @@
+.sobre{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.sobre__principal{
+    padding: 5em 20vw;
+}
+.sobre__principal--p{
+    color: var(--vinho);
+    font-size: 16px;
+    font-weight: 600;
+}
+.sobre__principal--titulo{
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0.7em;
+}
+.sobre__principal--texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+.sobre__aux{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8vw;
+}
+.sobre__aux--info{
+    text-align: left;
+    width: 20vw;
+    transition: 0.3s;
+}
+.sobre__aux--numero{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+.sobre__aux--titulo{
+    font-size: 18px;
+    font-weight: 500;
+}
+.sobre__aux--texto{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+.sobre__aux--info:hover{
+    scale: 1.07;
+    cursor: default;
+    transition: .3s;
+}

@@ -1,0 +1,43 @@
+@import url(nav.css);
+@import url(sobre.css);
+@import url(vagas.css);
+@import url(comentarios.css);
+@import url(footer.css);
+
+*{
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza-escuro: #3A404E;
+    --cinza: #667085;
+    --vinho: #8E2424;
+
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.topo1 img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px var(--cinza-escuro);
+}
+.topo1 img:hover, .topo img:hover{
+    scale: 1.08;
+}
+.topo img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 25px;
+    bottom: 90px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px var(--cinza-escuro);
+}

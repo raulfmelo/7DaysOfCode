@@ -1,0 +1,27 @@
+.comentarios__campo{
+    margin: 0 10vw ;
+    margin-bottom: 5em;text-align: center;
+    background: #c3191910;
+    padding: 3em;
+}
+.comentarios__campo--texto--topo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+    margin-bottom: 1em;
+}
+.comentarios__campo--titulo{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.comentarios__campo--nome{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0.5em 0;
+}
+.comentarios__campo--descricao{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
